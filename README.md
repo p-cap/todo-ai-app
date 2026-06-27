@@ -33,6 +33,4 @@ To make this conversational experience work smoothly, the app connects three mai
 
 ## 🍿 Enjoy
 
-https://github.com/user-attachments/assets/d9b3f497-ba83-4b31-a091-c4c030d3128a
-
-
+https://github.com/user-attachments/assets/09fe8b17-69e1-4b75-b6c6-f1c9ca795f8e

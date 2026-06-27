@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-surface: #1b1c1b;
+  --color-surface-bright: #fbf9f7;
+  --color-surface-container-low: #f5f3f1;
+  --color-secondary-fixed: #dce2f3;
+  --color-primary-fixed: #d1e8dd;
+  --color-on-secondary-container: #5e6572;
+  --color-tertiary: #755755;
+  --color-secondary-container: #dce2f3;
+  --color-surface-dim: #dbdad8;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #e4e2e0;
+  --color-on-surface-variant: #424845;
+  --color-outline: #727875;
+  --color-surface-container-highest: #e4e2e0;
+  --color-on-primary-container: #263932;
+  --color-surface: #fbf9f7;
+  --color-background: #fbf9f7;
+  --color-on-secondary: #ffffff;
+  --color-secondary: #585f6c;
+  --color-on-background: #1b1c1b;
+  --color-on-primary: #ffffff;
+  --color-outline-variant: #c2c8c4;
+  --color-on-primary-fixed-variant: #374b43;
+  --color-primary-fixed-dim: #b5ccc1;
+  --color-surface-container-high: #e9e8e6;
+  --color-surface-container: #efeeec;
+  --color-primary: #4e635a;
+  --color-primary-container: #8da399;
+
+  --spacing-chat-width: 400px;
+}
+
+@utility custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #c2c8c4;
+    border-radius: 10px;
+  }
+}
+
+/* Match the refined Material Symbols icon appearance from your screenshot */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.material-symbols-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+html, body {
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}

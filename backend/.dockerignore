@@ -1,0 +1,15 @@
+# Ignore python virtual environments
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+
+# Ignore source control files
+.git/
+.gitignore
+
+# Ignore local environment settings and data
+.env
+*.db
+*.sqlite

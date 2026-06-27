@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL support
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Dependencies
+.venv/
+venv/
+ENV/
+.env
+
+# IDEs and OS junk
+.vscode/
+.idea/
+.DS_Store
+*.log

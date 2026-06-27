@@ -33,4 +33,3 @@ To make this conversational experience work smoothly, the app connects three mai
 
 ## 🍿 Enjoy
 
-<video controls src="Screen Recording 2026-06-27 at 1.58.17 PM.mov" title="Title"></video>
